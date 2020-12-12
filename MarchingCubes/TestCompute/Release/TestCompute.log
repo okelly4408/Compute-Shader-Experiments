@@ -1,0 +1,9 @@
+﻿  camera.cpp
+  main.cpp
+main.cpp(59): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+main.cpp(383): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+main.cpp(603): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  shader_program.cpp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+main.obj : error LNK2001: unresolved external symbol _SOIL_load_image
+C:\Users\Owen\Documents\Visual Studio 2015\Projects\MarchingCubes\TestCompute\Release\TestCompute.exe : fatal error LNK1120: 1 unresolved externals

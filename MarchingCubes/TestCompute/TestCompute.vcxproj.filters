@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{dd00cc51-6bb0-49a9-a056-981311151901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="quad_vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="quad_frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="geom.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="noise_3D_compute.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="marching_cubes_compute.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="grass.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tiles.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="grass-texture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rocky_cliff.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wet-rocks.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

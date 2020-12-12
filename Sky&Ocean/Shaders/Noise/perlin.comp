@@ -1,0 +1,66 @@
+#line 1000
+layout(location = 1) uniform sampler2D gradient_texture;
+layout(location = 2) uniform sampler2D permutation_texture;
+
+vec3 fade(vec3 t)
+{
+	return (t * t * t * (t * (t * 6.0 - 15.0) + 10.0));
+}
+float grad_perm(float x, vec3 p)
+{
+	return dot(vec3(texture(gradient_texture, vec2(x, 0)).xyz), p);
+}
+vec4 perm2d(vec2 p)
+{
+	return texture(permutation_texture, p);
+}
+float inoise(in vec3 p)
+{
+	vec3 P = mod(floor(p), 256.0);	
+  	p -= floor(p);                      
+	vec3 f = fade(p);                 
+	P = P / 256.0;
+	const float one = 1.0 / 256.0;  
+	vec4 AA = perm2d(P.yx) + P.z;
+  	return mix( mix( mix( grad_perm(AA.x, p ),  
+                             grad_perm(AA.z, p + vec3(-1.0, 0.0, 0.0) ), f.x),
+                       mix( grad_perm(AA.y, p + vec3(0.0, -1.0, 0.0) ),
+                             grad_perm(AA.w, p + vec3(-1.0, -1.0, 0.0) ), f.x), f.y),
+                             
+                 mix( mix( grad_perm(AA.x+one, p + vec3(0.0, 0.0, -1.0) ),
+                             grad_perm(AA.z+one, p + vec3(-1.0, 0.0, -1.0) ), f.x),
+                       mix( grad_perm(AA.y+one, p + vec3(0.0, -1.0, -1.0) ),
+                             grad_perm(AA.w+one, p + vec3(-1.0, -1.0, -1.0) ), f.x), f.y), f.z);
+}
+float fbm(in vec3 p)
+{
+	float signal = 0.0;
+	float amplitude = 1.5;
+	float lacunarity = 1.61;
+	float frequency = 1.0;
+	float gain = 0.5;
+	for (uint i = 0; i < 12; i++)
+	{
+		float n = inoise(p * frequency) * amplitude;
+		signal += n;
+		frequency *= lacunarity;
+		amplitude *= gain;
+	}
+	return (signal + 1.0) / 2.0;
+}
+float rnoise(vec3 p) {
+	float n = 1.0 - abs(inoise(p) * 2.0);
+	return n*n - 0.5;
+}
+
+float rmf3D(vec3 p, int octaves, float frequency, float lacunarity, float gain) {
+    float sum = 0.0;
+    float amp = 1.0;
+    for(int i = 0; i < octaves; i++) {
+        float n = rnoise(p * frequency);
+        sum += n * amp;
+        frequency *= lacunarity;
+        amp *= gain;
+    }
+    return sum;
+}

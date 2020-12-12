@@ -1,0 +1,5 @@
+﻿  noise_util.cpp
+c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\noise_util.cpp(14): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\noise_util.cpp(23): warning C4244: 'argument': conversion from 'float' to 'GLuint', possible loss of data
+  VolumetricsDemo.vcxproj -> C:\Users\Owen\Documents\Visual Studio 2015\Projects\MarchingCubes\VolumetricsDemo\Debug\VolumetricsDemo.exe
+  VolumetricsDemo.vcxproj -> C:\Users\Owen\Documents\Visual Studio 2015\Projects\MarchingCubes\VolumetricsDemo\Debug\VolumetricsDemo.pdb (Partial PDB)

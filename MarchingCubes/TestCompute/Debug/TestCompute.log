@@ -1,0 +1,24 @@
+﻿  main.cpp
+c:\users\owen kelly\desktop\marchingcubes-master-revised\testcompute\testcompute\main.cpp(62): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\owen kelly\desktop\marchingcubes-master-revised\testcompute\testcompute\main.cpp(408): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\owen kelly\desktop\marchingcubes-master-revised\testcompute\testcompute\main.cpp(550): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  SOIL.LIB(SOIL.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+shader_program.obj : warning LNK4049: locally defined symbol ___glewAttachShader imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewCompileShader imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewCreateProgram imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewCreateShader imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewDeleteProgram imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewDeleteShader imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewGetProgramInfoLog imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewGetProgramiv imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewGetShaderInfoLog imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewGetShaderiv imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewLinkProgram imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewShaderSource imported
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\TestCompute\Debug\vc120.pdb'; linking object as if no debug info
+  TestCompute.vcxproj -> C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\TestCompute\Debug\TestCompute.exe

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>276</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'window' hides previous declaration at line '45' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>key_callback</FUNCTION>
+    <DECORATED>?key_callback@@YAXPAUGLFWwindow@@HHHH@Z</DECORATED>
+    <FUNCLINE>276</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>303</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'window' hides previous declaration at line '45' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>mouse_callback</FUNCTION>
+    <DECORATED>?mouse_callback@@YAXPAUGLFWwindow@@NN@Z</DECORATED>
+    <FUNCLINE>303</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>326</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'window' hides previous declaration at line '45' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>mouse_button_callback</FUNCTION>
+    <DECORATED>?mouse_button_callback@@YAXPAUGLFWwindow@@HHH@Z</DECORATED>
+    <FUNCLINE>326</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>416</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned int' passed as _Param_(2) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>debugMessage</FUNCTION>
+    <DECORATED>?debugMessage@@YGXIIIIHPBDPBX@Z</DECORATED>
+    <FUNCLINE>352</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec3&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec3@M$0A@@glm@@QAE@ABM00@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0EEEE@?$tvec4@M$0A@@glm@@QAE@EEEE@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0CCCC@?$tvec4@M$0A@@glm@@QAE@CCCC@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec3&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0HHH@?$tvec3@M$0A@@glm@@QAE@ABH00@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0NNNN@?$tvec4@M$0A@@glm@@QAE@NNNN@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$0A@@glm@@QAE@MMMM@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0HHHH@?$tvec4@M$0A@@glm@@QAE@HHHH@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0MHHH@?$tvec4@M$0A@@glm@@QAE@MHHH@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0HMHH@?$tvec4@M$0A@@glm@@QAE@HMHH@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0HHMH@?$tvec4@M$0A@@glm@@QAE@HHMH@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0HHHM@?$tvec4@M$0A@@glm@@QAE@HHHM@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

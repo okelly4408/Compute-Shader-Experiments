@@ -1,0 +1,17 @@
+#version 450 core
+layout(local_size_x = 8, local_size_y = 8, local_size_z = 8) in;
+layout(r32f, binding = 1) uniform restrict writeonly image3D noise_map;
+
+#include ".Noise/perlin.comp"
+
+#line 7
+void main()
+{
+	vec3 pos = (vec3(gl_GlobalInvocationID.xyz) / (vec3(gl_NumWorkGroups * gl_WorkGroupSize) * 4.0)) * 6.4324;
+	//float n = fbm(pos);
+	//float n = rmf3D(pos * 2.0, 12, 1.15, 1.31, 0.5);
+	float n = (fbm(pos));
+	
+	// = length(pos - 1.5) + ((1.0 - (n)) * 0.4);
+	imageStore(noise_map, ivec3(gl_GlobalInvocationID.xyz), vec4(1.0 - n, 0.0, 0.0, 0.0));
+}	 

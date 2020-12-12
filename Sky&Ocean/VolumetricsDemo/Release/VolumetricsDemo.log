@@ -1,0 +1,51 @@
+﻿LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  0 of 360 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    15 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+shader_program.obj : warning LNK4049: locally defined symbol ___glewLinkProgram imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewDeleteShader imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewGetProgramInfoLog imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewShaderSource imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewDeleteProgram imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewAttachShader imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewGetProgramiv imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewGetShaderInfoLog imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewCreateProgram imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewCreateShader imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewCompileShader imported
+shader_program.obj : warning LNK4049: locally defined symbol ___glewGetShaderiv imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewMemoryBarrier imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewUniform3f imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewBindFramebuffer imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewBindRenderbuffer imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewTexStorage3D imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewGenFramebuffers imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewGenVertexArrays imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewTexStorage2D imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewActiveTexture imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewBufferData imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewUniform1f imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewDispatchCompute imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewDrawBuffers imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewBindImageTexture imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewUniform1i imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewFramebufferTexture imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewVertexAttribPointer imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+atmospheric_scattering.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported
+ocean.obj : warning LNK4049: locally defined symbol ___glewDeleteBuffers imported
+ocean.obj : warning LNK4049: locally defined symbol ___glewUniform4f imported
+ocean.obj : warning LNK4049: locally defined symbol ___glewGenerateMipmap imported
+ocean.obj : warning LNK4049: locally defined symbol ___glewUniformMatrix4fv imported
+ocean.obj : warning LNK4049: locally defined symbol ___glewGenerateMipmapEXT imported
+ocean.obj : warning LNK4049: locally defined symbol ___glewDeleteVertexArrays imported
+ocean.obj : warning LNK4049: locally defined symbol ___glewUniform2f imported
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Owen\Documents\Visual Studio 2015\Projects\MarchingCubes\VolumetricsDemo\Release\vc120.pdb'; linking object as if no debug info
+  VolumetricsDemo.vcxproj -> C:\Users\Owen\Documents\Visual Studio 2015\Projects\MarchingCubes\VolumetricsDemo\Release\VolumetricsDemo.exe
+  VolumetricsDemo.vcxproj -> C:\Users\Owen\Documents\Visual Studio 2015\Projects\MarchingCubes\VolumetricsDemo\Release\VolumetricsDemo.pdb (Full PDB)

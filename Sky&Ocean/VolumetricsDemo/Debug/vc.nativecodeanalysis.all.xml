@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>276</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'window' hides previous declaration at line '45' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>key_callback</FUNCTION>
+    <DECORATED>?key_callback@@YAXPAUGLFWwindow@@HHHH@Z</DECORATED>
+    <FUNCLINE>276</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>303</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'window' hides previous declaration at line '45' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>mouse_callback</FUNCTION>
+    <DECORATED>?mouse_callback@@YAXPAUGLFWwindow@@NN@Z</DECORATED>
+    <FUNCLINE>303</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>326</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'window' hides previous declaration at line '45' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>mouse_button_callback</FUNCTION>
+    <DECORATED>?mouse_button_callback@@YAXPAUGLFWwindow@@HHH@Z</DECORATED>
+    <FUNCLINE>326</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>416</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned int' passed as _Param_(2) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>debugMessage</FUNCTION>
+    <DECORATED>?debugMessage@@YGXIIIIHPBDPBX@Z</DECORATED>
+    <FUNCLINE>352</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec3&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec3@M$0A@@glm@@QAE@ABM00@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0EEEE@?$tvec4@M$0A@@glm@@QAE@EEEE@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec3&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0HHH@?$tvec3@M$0A@@glm@@QAE@ABH00@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\dependencies\inlcudes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'c' hides previous declaration at line '46' of 'c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\main.cpp'.</DESCRIPTION>
+    <FUNCTION>glm::tvec4&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$0A@@glm@@QAE@MMMM@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+      <FILENAME>ocean.cpp</FILENAME>
+      <LINE>402</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'data':  the writable size is 'FFT_SIZE*PASSES*4*4' bytes, but '20' bytes might be written.</DESCRIPTION>
+    <FUNCTION>ocean::compute_butterfly_texture</FUNCTION>
+    <DECORATED>?compute_butterfly_texture@ocean@@AAEPAMXZ</DECORATED>
+    <FUNCLINE>369</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>371</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'data' is an array of 4 elements (16 bytes)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;PASSES')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>374</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>375</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>376</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>376</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;nBlocks')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>377</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>377</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'k&lt;nHInputs')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>378</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>378</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>378</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>378</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>379</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'i==0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>380</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>382</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>392</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>392</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>393</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>395</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>396</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>397</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>398</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>399</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>401</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>402</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'data[4]', (writable range is 0 to 3)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

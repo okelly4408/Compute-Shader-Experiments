@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+      <FILENAME>ocean.cpp</FILENAME>
+      <LINE>402</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'data':  the writable size is 'FFT_SIZE*PASSES*4*4' bytes, but '20' bytes might be written.</DESCRIPTION>
+    <FUNCTION>ocean::compute_butterfly_texture</FUNCTION>
+    <DECORATED>?compute_butterfly_texture@ocean@@AAEPAMXZ</DECORATED>
+    <FUNCLINE>369</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>371</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'data' is an array of 4 elements (16 bytes)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;PASSES')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>374</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>375</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>376</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>376</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;nBlocks')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>377</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>377</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'k&lt;nHInputs')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>378</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>378</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>378</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>378</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>379</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'i==0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>380</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>382</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>392</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>392</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>393</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>395</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>396</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>397</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>398</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>399</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>401</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\owen\documents\visual studio 2015\projects\marchingcubes\volumetricsdemo\volumetricsdemo\</FILEPATH>
+        <FILENAME>ocean.cpp</FILENAME>
+        <LINE>402</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'data[4]', (writable range is 0 to 3)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

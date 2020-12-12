@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="shader_program.cpp" />
+    <ClCompile Include="atmospheric_scattering.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="noise_util.cpp" />
+    <ClCompile Include="ocean.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="noise_util.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocean.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_program.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="atmosphere_scattering.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{b8d0f359-ca06-429e-afac-7cd10025bacb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Atmospheric Scattering">
+      <UniqueIdentifier>{16c7b9eb-f6da-4cb7-b30d-883a3b4ef16b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Water">
+      <UniqueIdentifier>{30af0ed6-d31d-4fb4-a963-2ecc5e6e031c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Noise">
+      <UniqueIdentifier>{6a28dd5b-10ef-43f8-9e70-c6d235062407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{72ec0733-7f37-4db3-8c2b-cb25a21467e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shaders\AtmosphericScattering\atmosphere_f.glsl">
+      <Filter>Shaders\Atmospheric Scattering</Filter>
+    </None>
+    <None Include="..\Shaders\AtmosphericScattering\atmosphere_v.glsl">
+      <Filter>Shaders\Atmospheric Scattering</Filter>
+    </None>
+    <None Include="..\Shaders\AtmosphericScattering\copy_inscatter_compute.glsl">
+      <Filter>Shaders\Atmospheric Scattering</Filter>
+    </None>
+    <None Include="..\Shaders\AtmosphericScattering\copy_inscatter_n_compute.glsl">
+      <Filter>Shaders\Atmospheric Scattering</Filter>
+    </None>
+    <None Include="..\Shaders\AtmosphericScattering\copy_irradiance_compute.glsl">
+      <Filter>Shaders\Atmospheric Scattering</Filter>
+    </None>
+    <None Include="..\Shaders\AtmosphericScattering\inscatter_compute.glsl">
+      <Filter>Shaders\Atmospheric Scattering</Filter>
+    </None>
+    <None Include="..\Shaders\AtmosphericScattering\inscatter_n_compute.glsl">
+      <Filter>Shaders\Atmospheric Scattering</Filter>
+    </None>
+    <None Include="..\Shaders\AtmosphericScattering\inscatter_s_compute.glsl">
+      <Filter>Shaders\Atmospheric Scattering</Filter>
+    </None>
+    <None Include="..\Shaders\AtmosphericScattering\irradiance_compute.glsl">
+      <Filter>Shaders\Atmospheric Scattering</Filter>
+    </None>
+    <None Include="..\Shaders\AtmosphericScattering\irradiance_n_compute.glsl">
+      <Filter>Shaders\Atmospheric Scattering</Filter>
+    </None>
+    <None Include="..\Shaders\AtmosphericScattering\reflection_map_f.glsl">
+      <Filter>Shaders\Atmospheric Scattering</Filter>
+    </None>
+    <None Include="..\Shaders\AtmosphericScattering\reflection_map_v.glsl">
+      <Filter>Shaders\Atmospheric Scattering</Filter>
+    </None>
+    <None Include="..\Shaders\AtmosphericScattering\transmittance_compute.glsl">
+      <Filter>Shaders\Atmospheric Scattering</Filter>
+    </None>
+    <None Include="..\Shaders\Noise\noise3D_main.comp">
+      <Filter>Shaders\Noise</Filter>
+    </None>
+    <None Include="..\Shaders\Noise\perlin.comp">
+      <Filter>Shaders\Noise</Filter>
+    </None>
+    <None Include="..\Shaders\WaterShaders\fftx_compute.glsl">
+      <Filter>Shaders\Water</Filter>
+    </None>
+    <None Include="..\Shaders\WaterShaders\ffty_compute.glsl">
+      <Filter>Shaders\Water</Filter>
+    </None>
+    <None Include="..\Shaders\WaterShaders\init_compute.glsl">
+      <Filter>Shaders\Water</Filter>
+    </None>
+    <None Include="..\Shaders\WaterShaders\ocean_frag.glsl">
+      <Filter>Shaders\Water</Filter>
+    </None>
+    <None Include="..\Shaders\WaterShaders\ocean_vert.glsl">
+      <Filter>Shaders\Water</Filter>
+    </None>
+    <None Include="..\Shaders\WaterShaders\variances_compute.glsl">
+      <Filter>Shaders\Water</Filter>
+    </None>
+    <None Include="..\Shaders\General\cube_frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\General\cube_vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\General\scene_f.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\General\scene_v.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

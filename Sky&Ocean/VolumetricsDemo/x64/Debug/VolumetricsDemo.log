@@ -1,0 +1,228 @@
+﻿  shader_program.cpp
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\shader_program.cpp(141,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  atmospheric_scattering.cpp
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\atmospheric_scattering.cpp(60,61): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\atmospheric_scattering.cpp(60,47): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\atmospheric_scattering.cpp(196,74): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\atmospheric_scattering.cpp(202,84): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\atmospheric_scattering.cpp(220,83): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  camera.cpp
+  main.cpp
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\main.cpp(55,39): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\main.cpp(89,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\main.cpp(94,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\main.cpp(99,34): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\main.cpp(115,93): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\main.cpp(332,38): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\main.cpp(333,40): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\main.cpp(336,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\main.cpp(336,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  noise_util.cpp
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\noise_util.cpp(14,59): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\noise_util.cpp(14,51): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\noise_util.cpp(14,44): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\noise_util.cpp(24,49): warning C4244: 'argument': conversion from 'float' to 'GLuint', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\noise_util.cpp(24,38): warning C4244: 'argument': conversion from 'float' to 'GLuint', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\noise_util.cpp(24,26): warning C4244: 'argument': conversion from 'float' to 'GLuint', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\noise_util.cpp(42,60): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\noise_util.cpp(42,52): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\noise_util.cpp(42,45): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\noise_util.cpp(57,49): warning C4244: 'argument': conversion from 'float' to 'GLuint', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\noise_util.cpp(57,38): warning C4244: 'argument': conversion from 'float' to 'GLuint', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\noise_util.cpp(57,26): warning C4244: 'argument': conversion from 'float' to 'GLuint', possible loss of data
+  ocean.cpp
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(31,53): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(43,53): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(48,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(48,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(130,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(133,21): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(134,21): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(141,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(155,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(185,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(204,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(206,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(207,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(208,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(209,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(210,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(211,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(211,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(213,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(214,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(215,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(216,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(217,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(217,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(218,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(223,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(225,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(235,56): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(240,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(249,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(250,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(269,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(270,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(271,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(272,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(301,27): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(306,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(308,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(316,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(317,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(326,86): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(334,78): warning C4244: 'argument': conversion from 'const int' to 'GLfloat', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(366,11): warning C4244: '=': conversion from 'long double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(367,11): warning C4244: '=': conversion from 'long double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(396,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(397,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(402,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(403,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(420,65): warning C4244: 'argument': conversion from 'const int' to 'GLfloat', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(426,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(425,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(424,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\VolumetricsDemo\ocean.cpp(423,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  Generating Code...
+shader_program.obj : error LNK2019: unresolved external symbol __imp___glewAttachShader referenced in function "public: __cdecl shader_program::shader_program(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0shader_program@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0000@Z)
+shader_program.obj : error LNK2019: unresolved external symbol __imp___glewCompileShader referenced in function "private: static void __cdecl shader_program::create_shader(unsigned int *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,unsigned int)" (?create_shader@shader_program@@CAXPEAIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+shader_program.obj : error LNK2019: unresolved external symbol __imp___glewCreateProgram referenced in function "public: __cdecl shader_program::shader_program(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0shader_program@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0000@Z)
+shader_program.obj : error LNK2019: unresolved external symbol __imp___glewCreateShader referenced in function "private: static void __cdecl shader_program::create_shader(unsigned int *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,unsigned int)" (?create_shader@shader_program@@CAXPEAIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+shader_program.obj : error LNK2019: unresolved external symbol __imp___glewDeleteProgram referenced in function "public: void __cdecl shader_program::reload_shaders(void)" (?reload_shaders@shader_program@@QEAAXXZ)
+shader_program.obj : error LNK2019: unresolved external symbol __imp___glewDeleteShader referenced in function "public: __cdecl shader_program::shader_program(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0shader_program@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+shader_program.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramInfoLog referenced in function "public: void __cdecl shader_program::reload_shaders(void)" (?reload_shaders@shader_program@@QEAAXXZ)
+shader_program.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramiv referenced in function "private: static int __cdecl shader_program::check_program(unsigned int)" (?check_program@shader_program@@CAHI@Z)
+shader_program.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderInfoLog referenced in function "private: static void __cdecl shader_program::print_shader_log(unsigned int)" (?print_shader_log@shader_program@@CAXI@Z)
+shader_program.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderiv referenced in function "private: static void __cdecl shader_program::check_shader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?check_shader@shader_program@@CAXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+shader_program.obj : error LNK2019: unresolved external symbol __imp___glewLinkProgram referenced in function "public: __cdecl shader_program::shader_program(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0shader_program@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0000@Z)
+shader_program.obj : error LNK2019: unresolved external symbol __imp___glewShaderSource referenced in function "private: static void __cdecl shader_program::create_shader(unsigned int *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,unsigned int)" (?create_shader@shader_program@@CAXPEAIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp_glBindTexture referenced in function "private: void __cdecl atmospheric_scattering::init_fbo(unsigned int *,unsigned int *,unsigned int *)" (?init_fbo@atmospheric_scattering@@AEAAXPEAI00@Z)
+main.obj : error LNK2001: unresolved external symbol __imp_glBindTexture
+noise_util.obj : error LNK2001: unresolved external symbol __imp_glBindTexture
+ocean.obj : error LNK2001: unresolved external symbol __imp_glBindTexture
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp_glDrawElements referenced in function "public: void __cdecl atmospheric_scattering::render_skymap(struct glm::tvec3<float,0>,float)" (?render_skymap@atmospheric_scattering@@QEAAXU?$tvec3@M$0A@@glm@@M@Z)
+main.obj : error LNK2001: unresolved external symbol __imp_glDrawElements
+ocean.obj : error LNK2001: unresolved external symbol __imp_glDrawElements
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp_glGenTextures referenced in function "private: void __cdecl atmospheric_scattering::init_fbo(unsigned int *,unsigned int *,unsigned int *)" (?init_fbo@atmospheric_scattering@@AEAAXPEAI00@Z)
+main.obj : error LNK2001: unresolved external symbol __imp_glGenTextures
+noise_util.obj : error LNK2001: unresolved external symbol __imp_glGenTextures
+ocean.obj : error LNK2001: unresolved external symbol __imp_glGenTextures
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp_glTexParameteri referenced in function "private: void __cdecl atmospheric_scattering::init_fbo(unsigned int *,unsigned int *,unsigned int *)" (?init_fbo@atmospheric_scattering@@AEAAXPEAI00@Z)
+main.obj : error LNK2001: unresolved external symbol __imp_glTexParameteri
+noise_util.obj : error LNK2001: unresolved external symbol __imp_glTexParameteri
+ocean.obj : error LNK2001: unresolved external symbol __imp_glTexParameteri
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewActiveTexture referenced in function "private: void __cdecl atmospheric_scattering::init_fbo(unsigned int *,unsigned int *,unsigned int *)" (?init_fbo@atmospheric_scattering@@AEAAXPEAI00@Z)
+noise_util.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewBindBuffer referenced in function "private: static void __cdecl atmospheric_scattering::draw_quad(unsigned int *)" (?draw_quad@atmospheric_scattering@@CAXPEAI@Z)
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewBufferData referenced in function "private: static void __cdecl atmospheric_scattering::draw_quad(unsigned int *)" (?draw_quad@atmospheric_scattering@@CAXPEAI@Z)
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewGenBuffers referenced in function "private: static void __cdecl atmospheric_scattering::draw_quad(unsigned int *)" (?draw_quad@atmospheric_scattering@@CAXPEAI@Z)
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewDrawBuffers referenced in function "private: void __cdecl atmospheric_scattering::init_fbo(unsigned int *,unsigned int *,unsigned int *)" (?init_fbo@atmospheric_scattering@@AEAAXPEAI00@Z)
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewEnableVertexAttribArray referenced in function "private: static void __cdecl atmospheric_scattering::draw_quad(unsigned int *)" (?draw_quad@atmospheric_scattering@@CAXPEAI@Z)
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewGetUniformLocation referenced in function "private: void __cdecl atmospheric_scattering::precompute(void)" (?precompute@atmospheric_scattering@@AEAAXXZ)
+noise_util.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewUniform1f referenced in function "private: void __cdecl atmospheric_scattering::precompute(void)" (?precompute@atmospheric_scattering@@AEAAXXZ)
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewUniform1f
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewUniform1i referenced in function "private: void __cdecl atmospheric_scattering::precompute(void)" (?precompute@atmospheric_scattering@@AEAAXXZ)
+noise_util.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewUniform3f referenced in function "public: void __cdecl atmospheric_scattering::render_skymap(struct glm::tvec3<float,0>,float)" (?render_skymap@atmospheric_scattering@@QEAAXU?$tvec3@M$0A@@glm@@M@Z)
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewUniform3f
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewUseProgram referenced in function "private: void __cdecl atmospheric_scattering::precompute(void)" (?precompute@atmospheric_scattering@@AEAAXXZ)
+noise_util.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewVertexAttribPointer referenced in function "private: static void __cdecl atmospheric_scattering::draw_quad(unsigned int *)" (?draw_quad@atmospheric_scattering@@CAXPEAI@Z)
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewFramebufferTexture referenced in function "private: void __cdecl atmospheric_scattering::init_fbo(unsigned int *,unsigned int *,unsigned int *)" (?init_fbo@atmospheric_scattering@@AEAAXPEAI00@Z)
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewDispatchCompute referenced in function "private: void __cdecl atmospheric_scattering::precompute(void)" (?precompute@atmospheric_scattering@@AEAAXXZ)
+noise_util.obj : error LNK2001: unresolved external symbol __imp___glewDispatchCompute
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewDispatchCompute
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewBindFramebuffer referenced in function "private: void __cdecl atmospheric_scattering::init_fbo(unsigned int *,unsigned int *,unsigned int *)" (?init_fbo@atmospheric_scattering@@AEAAXPEAI00@Z)
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewBindRenderbuffer referenced in function "private: void __cdecl atmospheric_scattering::init_fbo(unsigned int *,unsigned int *,unsigned int *)" (?init_fbo@atmospheric_scattering@@AEAAXPEAI00@Z)
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewGenFramebuffers referenced in function "private: void __cdecl atmospheric_scattering::init_fbo(unsigned int *,unsigned int *,unsigned int *)" (?init_fbo@atmospheric_scattering@@AEAAXPEAI00@Z)
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewBindImageTexture referenced in function "private: void __cdecl atmospheric_scattering::precompute(void)" (?precompute@atmospheric_scattering@@AEAAXXZ)
+noise_util.obj : error LNK2001: unresolved external symbol __imp___glewBindImageTexture
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewBindImageTexture
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewMemoryBarrier referenced in function "private: void __cdecl atmospheric_scattering::precompute(void)" (?precompute@atmospheric_scattering@@AEAAXXZ)
+noise_util.obj : error LNK2001: unresolved external symbol __imp___glewMemoryBarrier
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewMemoryBarrier
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewTexStorage2D referenced in function "private: void __cdecl atmospheric_scattering::init_fbo(unsigned int *,unsigned int *,unsigned int *)" (?init_fbo@atmospheric_scattering@@AEAAXPEAI00@Z)
+noise_util.obj : error LNK2001: unresolved external symbol __imp___glewTexStorage2D
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewTexStorage2D
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewTexStorage3D referenced in function "private: void __cdecl atmospheric_scattering::init_textures(void)" (?init_textures@atmospheric_scattering@@AEAAXXZ)
+noise_util.obj : error LNK2001: unresolved external symbol __imp___glewTexStorage3D
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewTexStorage3D
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewBindVertexArray referenced in function "private: static void __cdecl atmospheric_scattering::draw_quad(unsigned int *)" (?draw_quad@atmospheric_scattering@@CAXPEAI@Z)
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+atmospheric_scattering.obj : error LNK2019: unresolved external symbol __imp___glewGenVertexArrays referenced in function "private: static void __cdecl atmospheric_scattering::draw_quad(unsigned int *)" (?draw_quad@atmospheric_scattering@@CAXPEAI@Z)
+ocean.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+main.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glDisable referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glEnable referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glPolygonMode referenced in function "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPEAUGLFWwindow@@HHHH@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_glTexSubImage2D referenced in function "void __cdecl create_noise_luts(unsigned int *,unsigned int *)" (?create_noise_luts@@YAXPEAI0@Z)
+noise_util.obj : error LNK2001: unresolved external symbol __imp_glTexSubImage2D
+ocean.obj : error LNK2001: unresolved external symbol __imp_glTexSubImage2D
+main.obj : error LNK2019: unresolved external symbol glewInit referenced in function "void __cdecl init_glew(void)" (?init_glew@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "void __cdecl create_window(int,int)" (?create_window@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "void __cdecl init_glew(void)" (?init_glew@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "void __cdecl create_window(int,int)" (?create_window@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "void __cdecl create_window(int,int)" (?create_window@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPEAUGLFWwindow@@HHHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetInputMode referenced in function "void __cdecl create_window(int,int)" (?create_window@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function "void __cdecl create_window(int,int)" (?create_window@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetMouseButtonCallback referenced in function "void __cdecl create_window(int,int)" (?create_window@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetCursorPosCallback referenced in function "void __cdecl create_window(int,int)" (?create_window@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "void __cdecl create_window(int,int)" (?create_window@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+main.obj : error LNK2001: unresolved external symbol __glewActiveTexture
+main.obj : error LNK2001: unresolved external symbol __glewBindBuffer
+main.obj : error LNK2001: unresolved external symbol __glewBufferData
+main.obj : error LNK2001: unresolved external symbol __glewGenBuffers
+main.obj : error LNK2001: unresolved external symbol __glewDrawBuffers
+main.obj : error LNK2001: unresolved external symbol __glewEnableVertexAttribArray
+main.obj : error LNK2001: unresolved external symbol __glewGetUniformLocation
+main.obj : error LNK2001: unresolved external symbol __glewUniform1f
+main.obj : error LNK2001: unresolved external symbol __glewUniform1i
+main.obj : error LNK2001: unresolved external symbol __glewUniform2f
+main.obj : error LNK2001: unresolved external symbol __glewUniform3f
+main.obj : error LNK2001: unresolved external symbol __glewUniformMatrix4fv
+main.obj : error LNK2001: unresolved external symbol __glewUseProgram
+main.obj : error LNK2001: unresolved external symbol __glewVertexAttribPointer
+main.obj : error LNK2001: unresolved external symbol __glewFramebufferTexture
+main.obj : error LNK2001: unresolved external symbol __glewDispatchCompute
+main.obj : error LNK2001: unresolved external symbol __glewBindFramebuffer
+main.obj : error LNK2001: unresolved external symbol __glewBindRenderbuffer
+main.obj : error LNK2001: unresolved external symbol __glewCheckFramebufferStatus
+main.obj : error LNK2001: unresolved external symbol __glewFramebufferRenderbuffer
+main.obj : error LNK2001: unresolved external symbol __glewGenFramebuffers
+main.obj : error LNK2001: unresolved external symbol __glewGenRenderbuffers
+main.obj : error LNK2001: unresolved external symbol __glewRenderbufferStorage
+main.obj : error LNK2001: unresolved external symbol __glewBindImageTexture
+main.obj : error LNK2001: unresolved external symbol __glewMemoryBarrier
+main.obj : error LNK2001: unresolved external symbol __glewTexStorage2D
+main.obj : error LNK2001: unresolved external symbol __glewTexStorage3D
+main.obj : error LNK2001: unresolved external symbol __glewBindVertexArray
+main.obj : error LNK2001: unresolved external symbol __glewGenVertexArrays
+main.obj : error LNK2001: unresolved external symbol glewExperimental
+ocean.obj : error LNK2019: unresolved external symbol __imp_glGetFloatv referenced in function "public: __cdecl ocean::ocean(int,int)" (??0ocean@@QEAA@HH@Z)
+ocean.obj : error LNK2019: unresolved external symbol __imp_glTexImage2D referenced in function "public: __cdecl ocean::ocean(int,int)" (??0ocean@@QEAA@HH@Z)
+ocean.obj : error LNK2019: unresolved external symbol __imp_glTexParameterf referenced in function "public: __cdecl ocean::ocean(int,int)" (??0ocean@@QEAA@HH@Z)
+ocean.obj : error LNK2019: unresolved external symbol __imp___glewDeleteBuffers referenced in function "private: void __cdecl ocean::generate_mesh(float,float)" (?generate_mesh@ocean@@AEAAXMM@Z)
+ocean.obj : error LNK2019: unresolved external symbol __imp___glewUniform2f referenced in function "public: void __cdecl ocean::render(struct glm::tmat4x4<float,0>,struct glm::tmat4x4<float,0>,struct glm::tvec3<float,0>,float,class atmospheric_scattering,struct glm::tvec3<float,0>)" (?render@ocean@@QEAAXU?$tmat4x4@M$0A@@glm@@0U?$tvec3@M$0A@@3@MVatmospheric_scattering@@1@Z)
+ocean.obj : error LNK2019: unresolved external symbol __imp___glewUniform4f referenced in function "private: void __cdecl ocean::compute_slope_variance_tex(void)" (?compute_slope_variance_tex@ocean@@AEAAXXZ)
+ocean.obj : error LNK2019: unresolved external symbol __imp___glewUniformMatrix4fv referenced in function "public: void __cdecl ocean::render(struct glm::tmat4x4<float,0>,struct glm::tmat4x4<float,0>,struct glm::tvec3<float,0>,float,class atmospheric_scattering,struct glm::tvec3<float,0>)" (?render@ocean@@QEAAXU?$tmat4x4@M$0A@@glm@@0U?$tvec3@M$0A@@3@MVatmospheric_scattering@@1@Z)
+ocean.obj : error LNK2019: unresolved external symbol __imp___glewGenerateMipmap referenced in function "public: __cdecl ocean::ocean(int,int)" (??0ocean@@QEAA@HH@Z)
+ocean.obj : error LNK2019: unresolved external symbol __imp___glewDeleteVertexArrays referenced in function "private: void __cdecl ocean::generate_mesh(float,float)" (?generate_mesh@ocean@@AEAAXMM@Z)
+ocean.obj : error LNK2019: unresolved external symbol __imp___glewGenerateMipmapEXT referenced in function "private: void __cdecl ocean::simulate_fft_waves(float)" (?simulate_fft_waves@ocean@@AEAAXM@Z)
+C:\Users\Owen Kelly\Desktop\MarchingCubes-master-revised\VolumetricsDemo\x64\Debug\VolumetricsDemo.exe : fatal error LNK1120: 100 unresolved externals
